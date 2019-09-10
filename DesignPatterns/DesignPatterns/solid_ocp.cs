@@ -127,7 +127,7 @@ namespace DesignPatterns
 
     public class Demo2
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             var apple = new Product("Apple", Color.Green, Size.Small);
             var tree = new Product("Tree", Color.Green, Size.Large);

@@ -1,0 +1,17 @@
+design patterns notes
+Single responsibility
+	objects and classes should only do one thing
+Open close
+	classes should be open for extension but closed for modification
+	specification pattern
+	use inheritance to add functionality without changing previously built components
+Liskov substitution
+	you should be able to substitute a base class for a subclass	
+Interface separation
+	keep interfaces small and their concerns separate. you can use inheritance and the decorator pattern to compose complex interfaces out of simple ones. 
+Dependency inversion
+	high level modules should not depend on low level ones
+	use abstraction(interfaces) to keep low level structures and high level ones separate
+
+Builder pattern
+	 construct objects piecewise
